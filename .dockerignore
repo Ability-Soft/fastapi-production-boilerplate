@@ -1,0 +1,17 @@
+# Built by AbilitySoft | abilitysoft.net
+.env
+__pycache__
+*.pyc
+.git
+.gitignore
+.vscode
+.idea
+*.md
+.pytest_cache
+.ruff_cache
+.mypy_cache
+htmlcov
+.coverage
+venv
+.venv
+docker-compose.override.yml

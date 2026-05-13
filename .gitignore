@@ -1,0 +1,52 @@
+# Built by AbilitySoft | abilitysoft.net
+# ──────────────────────────────────────────────────────────
+# Python / FastAPI .gitignore
+# ──────────────────────────────────────────────────────────
+
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual environments ─────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── Environment variables ────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── IDE / Editor ──────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ── Testing ───────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ── Docker ────────────────────────────────────────────────
+*.log
+docker-compose.override.yml
+
+# ── Database ──────────────────────────────────────────────
+*.db
+*.sqlite3
+
+# ── Misc ──────────────────────────────────────────────────
+*.bak
+*.tmp
+.cache/

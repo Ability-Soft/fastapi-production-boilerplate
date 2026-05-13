@@ -1,0 +1,27 @@
+name: ✨ Feature Request
+description: Suggest an idea for this boilerplate
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We are always looking for ways to make this boilerplate more world-class!
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: 💡 Feature Description
+      description: A concise description of what you're suggesting.
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: 🎯 Problem/Motivation
+      description: Is your feature request related to a problem? Please describe.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 🔄 Alternatives
+      description: Describe any alternative solutions or features you've considered.
